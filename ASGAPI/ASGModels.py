@@ -1,4 +1,4 @@
-from ModelTEC import *
+from .ModelTEC import *
 
 import pickle
 from TypeModels import TypeModel
