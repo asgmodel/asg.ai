@@ -1,8 +1,8 @@
 import gradio as gr
 import sys
 
-sys.path.insert(0, "ASG.API/")
-from ASGModels import ASG
+
+from ASGAPI.ASGModels import ASG
 
 ASGAI=ASG(isForm=False)
 choices=[
