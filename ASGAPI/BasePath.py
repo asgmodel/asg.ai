@@ -1,4 +1,4 @@
 import sys
-path="ASG.API/"
+path="ASGAPI/"
 BASEPATH=path+'/'
 sys.path.insert(0, path)
