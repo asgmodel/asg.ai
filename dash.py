@@ -117,7 +117,6 @@ with gr.Blocks() as demo:
     
 
     # عرض الصورة الترحيبية
-    gr.Image("icon (1).jpg", label="Model AI ASG")
     gr.HTML("""
     <style>
     .gradio-tabs {
