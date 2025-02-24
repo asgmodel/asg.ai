@@ -6,7 +6,7 @@ Created on Sun Dec 18 21:43:54 2022
 """
 import numpy as np
 
-from ModelTEC import *
+from .ModelTEC import *
 
 from ipywidgets import HTML
 
