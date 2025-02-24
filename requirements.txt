@@ -1,0 +1,7 @@
+fastapi[all]
+gradio_client
+gradio
+regex
+scikit-learn
+googletrans==4.0.0rc1
+ipywidgets
