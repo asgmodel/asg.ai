@@ -2,7 +2,7 @@ import gradio as gr
 import sys
 
 
-from ASG.API import ASGModels
+from ASGAPI import ASGModels
 
 ASGAI=ASGModels.ASG(isForm=False)
 choices=[
