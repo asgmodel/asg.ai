@@ -1,13 +1,13 @@
 from .ModelTEC import *
 
 import pickle
-from TypeModels import TypeModel
-from BasePath import BASEPATH
+from .TypeModels import TypeModel
+from .BasePath import BASEPATH
 from threading import Thread
-from MScenoariotree import *
-from AModelScenoariotree import ModelScenoariotree
+from .MScenoariotree import *
+from .AModelScenoariotree import ModelScenoariotree
 
-from  MCheakscenario  import Cheakscenario
+from  .MCheakscenario  import Cheakscenario
 class ASG:
     def readobsoft(self):
         self.Soft=TEC(typemodel="svmL",model_setting=TypeModel['software'])
