@@ -2,9 +2,9 @@ import gradio as gr
 import sys
 
 
-from ASGAPI.ASGModels import ASG
+from ASGAPI import ASGModels
 
-ASGAI=ASG(isForm=False)
+ASGAI=ASGModels.ASG(isForm=False)
 choices=[
           "Group",
           "Technique",
