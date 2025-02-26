@@ -4,9 +4,9 @@ Created on Fri Mar 10 23:13:18 2023
 
 @author:
 """
-from ModelTEC import *
-from  MScenoariotree  import *
-from  MCheakscenario  import Cheakscenario
+from .ModelTEC import *
+from  .MScenoariotree  import *
+from  .MCheakscenario  import Cheakscenario
 
 
 
