@@ -197,7 +197,7 @@ class Tactic():
 
 
 
-from BasePath import BASEPATH
+from .BasePath import BASEPATH
 
 class Scenoariotree:
 
