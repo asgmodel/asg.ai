@@ -3,4 +3,5 @@ gradio_client
 gradio
 regex
 scikit-learn
+ipywidgets
 
