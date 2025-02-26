@@ -2,7 +2,7 @@ from typing import Optional
 import gradio as gr
 
 from fastapi import FastAPI
-import dash
+import dashborad
 app = FastAPI()
 
 
@@ -15,4 +15,4 @@ def read_item(item_id: int, q: Optional[str] = None):
     return {"item_id": item_id, "q": q}
 
 
-app = gr.mount_gradio_app(app, dash.demo, path='/dash')
+app = gr.mount_gradio_app(app, dashborad.demo, path='/dash')
