@@ -4,7 +4,7 @@ class ModelSetting:
         self.path_model=path_model
         self.path_Qwords=path_Qwords
 
-from BasePath import BASEPATH
+from .BasePath import BASEPATH
 
 TypeModel={
     'group':ModelSetting(name='Group',path_model=BASEPATH+"groupModel_API.pkl",path_Qwords=BASEPATH+"listdesgroupModel_API.pkl"),
