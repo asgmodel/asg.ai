@@ -1,6 +1,7 @@
 from typing import Optional
 import gradio as gr
 from pydantic import BaseModel
+from gradio_client import Client
 
 from fastapi import FastAPI
 import dash
